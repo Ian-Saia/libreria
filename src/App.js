@@ -5,7 +5,7 @@ const App = () =>{
   <>
     <header>Soy Header</header>
     <main>Soy Main</main>
-    <footer>Soy Footer</footer>
+    <footer>Soy Footer ¡?</footer>
   </>
   )
 }
