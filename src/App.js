@@ -1,11 +1,12 @@
 import React from "react";
+import ButtonAppBar from "./components/AppBar/AppBar";
+
+
 
 const App = () =>{
   return (
   <>
-    <header>Soy Header</header>
-    <main>Soy Main</main>
-    <footer>Soy Footer ¡?</footer>
+  <ButtonAppBar/>
   </>
   )
 }
