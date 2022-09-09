@@ -5,6 +5,8 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import MenuIcon from '@mui/icons-material/Menu';
 import "../AppBar/AppBar.css"
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import Logo from "C:/Users/ianel/Desktop/CoderHouse/React/libreria/src/assets/buho.png"
 
 export default function ButtonAppBar() {
   return (
@@ -13,8 +15,10 @@ export default function ButtonAppBar() {
         <Toolbar>
             <MenuIcon />
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            Bienvenido 
+          Libreria el Buho  
           </Typography>
+          <ShoppingCartIcon/>
+          <img classname="logo" src={Logo} />
         </Toolbar>
       </AppBar>
     </Box>
